@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto&display=swap');
+html,
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #318ca7;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    border: solid 1px white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background-color: #318ca7;
+    min-height: 300px;
+    padding: 20px;
+    border: solid 1px white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    border: solid 1px white;
+    min-height: 100px;
+    background-color: #318ca7;
+    display: flex;
+    justify-content: center;
+}
+
+div ul li {
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    font-size: 26px;
+    list-style: none;
+}
+
+img {
+    height: 800;
+    width: 2100;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+}
+
+h1{
+    color: white;
+
+}
+
+.Formulario {
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.divForm {
+    display: flex;
+    width: 45%;
+}
+
+.inputAssunto{
+    width: 30%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+button[type="reset"]:hover {
+    background-color: #d32f2f;
+}
